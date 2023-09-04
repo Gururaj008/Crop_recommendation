@@ -16,3 +16,5 @@ Steps involved in the project and Findings,
 6. Resulting in increase in the values of Precision, Recall, F1 score for the crops which was comparitively lower earlier
 7. Random Forest Classifier performed better compared to other models
 8. Deployed the model using streamlit
+
+Hosted online at: https://crop-recommendation-engine-by-gururaj-hc.streamlit.app/
