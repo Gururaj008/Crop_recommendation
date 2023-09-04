@@ -534,9 +534,6 @@ if __name__=="__main__":
     
     if selected == 'Developer contact details':
         st.divider()
-        st.subheader(':orange[Developer contact details]')
-        st.write('')
-        st.write('')
         col301, col302 = st.columns([10,20])
         with col301:
             st.markdown(":orange[email id:]")
