@@ -8,7 +8,7 @@ from streamlit_option_menu import option_menu
 
 def predict(listn):
     #st.markdown(listn)
-    with open('Crop_suggestion.pkl','rb') as file:
+    with open('crop_suggestion.pkl','rb') as file:
         model = pickle.load(file)
         return model.predict(listn)
 
